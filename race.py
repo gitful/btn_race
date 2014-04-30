@@ -32,7 +32,7 @@ class Frame(wx.Frame):
 			self.button.SetPosition(wx.Point(0,(width-40)/2))
 			if self.time < 5:
 				self.button.SetLabel("YOU CHEATED! YOU COULDN'T HAVE DONE THIS IN " + str(self.time) + " SECONDS!!!")
-			elif self.time < 10:
+			elif self.time < 6:
 				self.button.SetLabel(str(self.time) + " seconds... are you cheating?")
 			elif self.time < 20:
 				self.button.SetLabel("You are okay. " + str(self.time) + " seconds. Meh.")
